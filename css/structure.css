@@ -1,3 +1,8 @@
+body{
+	height: 100%;
+	width: 100%;
+}
+
 #menu{
 	margin-left: -150px;
 	width: 150px;
@@ -29,4 +34,69 @@
 
 #menu .pure-menu-heading:hover{
 	color: #999;
+}
+
+/*------------------------
+
+	Buttons
+
+-------------------------*/
+
+.scroll{
+	display: block;
+	position: relative;
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 50px;
+	color: #eee;
+	background: rgba(0,0,0,0.2);
+	border-radius: 50%;
+	margin-top: 100px;
+	cursor: pointer;
+}
+
+/*------------------------
+
+	Panels
+
+-------------------------*/
+
+section{
+	width: 100%;
+	min-height: 1080px;
+	margin: 0 auto;
+}
+
+.home{
+	background: url('../images/bg1small.jpg') 0px 0px fixed no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.callout{
+	width: 960px;
+	max-width: 95%;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	z-index: 1;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.contain{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.work{
+	background: #fff;
+	position: relative;
+	z-index: 10;
 }
