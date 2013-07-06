@@ -15,11 +15,12 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
 	<script src="js/skrollr.min.js"></script>
+	<script src="js/jquery.scrollto.min.js"></script>
 </head>
 
 <body>
 	
-<section class="home">
+<section class="home" data-0="opacity: 1;" data-1200="opacity: 0.4;">
 	<div class="callout">
 		<h1>Mike Quinn</h1>
 		<h2>front-end developer @ simple simple advertising</h2>
@@ -32,11 +33,31 @@
 	
 	<div class="contain">
 		<h1 class="subheader dark">Work</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, tempora, sed error pariatur repudiandae vitae dicta facilis sunt molestias illum ea dolore soluta voluptate commodi reiciendis autem quidem quibusdam quam!</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus atque excepturi ipsam quia quod deleniti neque. Saepe, ratione, ut, nam quae amet voluptas dignissimos consequuntur dolores quasi aperiam unde quam?</p>
+		<p>Here's sample of sites I have launched
+			in the past few months.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, doloremque sequi deserunt temporibus sint. Quia, illum, maxime, mollitia, distinctio suscipit unde quisquam optio quod eius laborum asperiores blanditiis in excepturi.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, natus nihil mollitia dolor qui culpa inventore eveniet dignissimos sunt dolorum excepturi sint temporibus! A, praesentium, cum tempore labore quibusdam voluptates.
+		</p>
+		<p><h1 class="subheader dark push">Chris Tait Photography</h1></p>
+		<p>
+			Built with <a href="www.statamic.com">Statamic</a>.
+			Design, development, and testing. Includes custom
+			flickr feed.
+		</p>
 	</div>
-</section>
 
+</section>
+<section class="chris">
+	<div class="overlay"></div>
+		<div class="view-site"><a href="#">View Site</a></div>
+</section>
+<script>
+	skrollr.init();
+</script>
 </body>
 
 </html>

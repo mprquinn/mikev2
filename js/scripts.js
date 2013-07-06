@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var windowHeight = $(window).innerHeight();
 
 	$('section.home').css({
-		'height' : windowHeight + 'px'; 
+		'height' : windowHeight + 'px'
 	});
 	
 	// $(window).resize(function(){
@@ -11,6 +11,17 @@ $(document).ready(function(){
 	// 	$('.callout h2').text(windowWidth + 'px');
 	// });
 
+
+	$('.home .scroll').click(function(){
+		$(window).scrollTo('.work', 500);
+	});
+
+	var scrollDistance = 0;
+
+	$(window).scroll(function(){
+		scrollDistance = $(window).scrollTop();
+		console.log(scrollDistance);
+	});
 
 	
 });

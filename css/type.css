@@ -10,10 +10,9 @@ p {
     text-align: left;
     font-style: normal;
     font-weight: 400;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
     font-size: 20px;
     line-height: 30px;
-    text-transform: lowercase;
     border: none;
     padding-top: 10px;
     float: none;
@@ -26,7 +25,7 @@ h1 {
     color: #eee;
     font-style: normal;
     font-weight: 700;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans' arial, helvetica, sans-serif;
     font-size: 150px;
     line-height: 200px;
     text-align: center;
@@ -41,7 +40,7 @@ h1.subheader {
     text-align: left;
     text-transform: none;
     line-height: 90px;
-    font-family: 'Gentium Book Basic';
+    font-family: 'Gentium Book Basic', georgia, serif;
     border-bottom: 1px solid #1d1d1d;
     margin: 0 0 10px 0;
 }
@@ -51,7 +50,7 @@ h2 {
     max-width: 100%;
     margin: 0 auto;
     color: #eee;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
     font-size: 41px;
     line-height: 45px;
     border-top-width: 1px;
@@ -75,7 +74,7 @@ h3 {
     color: #eee;
     font-style: normal;
     font-weight: 400;
-    font-family: 'Gentium Book Basic';
+    font-family: 'Gentium Book Basic', georgia, serif;
     font-size: 35px;
     text-align: center;
     line-height: 50px;
@@ -86,5 +85,34 @@ h3 {
 }
 
 .dark{
+    color: #1d1d1d;
+}
+
+.push{
+    margin-top: 25px !important;
+}
+
+
+/*------------------
+
+    Links
+
+-------------------*/
+
+a{
+    display: inline-block;
+    padding: 2px 5px;
+    background: #1d1d1d;
+    color: #eee;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover{
+    background: #eee;
     color: #1d1d1d;
 }
