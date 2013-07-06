@@ -1,0 +1,32 @@
+#menu{
+	margin-left: -150px;
+	width: 150px;
+	position: fixed;
+	top: 0;
+	left: 150px;
+	bottom: 0;
+	z-index: 1000;
+	background: #191818;
+	-webkit-overflow-scroll: touch;
+}
+
+.pure-menu.pure-menu-open,
+.pure-menu.pure-menu-horizontal li .pure-menu-children{
+	background: transparent;
+	border: none;
+}
+
+#menu .pure-menu-heading {
+	font-size: 110%;
+	color: #fff;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	background: #1d1d1d;
+}
+
+#menu .pure-menu-heading:hover{
+	color: #999;
+}
