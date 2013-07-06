@@ -1,0 +1,36 @@
+@media screen and (min-width: 600px) and (max-width: 989px){
+	
+	/*-------------------
+	Header
+	-------------------*/
+
+	.callout h1{
+		font-size: 115px;
+		line-height: 150px;
+	}
+
+	.callout h2{
+		font-size: 31px;
+		line-height: 40px;
+		width: 705px;
+	}
+
+	.callout h3{
+		font-size: 26px;
+		line-height: 40px;
+	}
+
+	h1.subheader{
+		max-width: 705px;
+		margin: 0 auto;
+		font-size: 40px;
+		line-height: 60px;
+	}
+
+
+	.contain p{
+		max-width: 705px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+}

@@ -1,6 +1,7 @@
 body{
 	height: 100%;
 	width: 100%;
+	background: #1d1d1d;
 }
 
 #menu{
@@ -92,6 +93,11 @@ section{
 
 .contain{
 	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.contain p{
 	margin: 0 auto;
 }
 
@@ -99,4 +105,5 @@ section{
 	background: #fff;
 	position: relative;
 	z-index: 10;
+	padding-top: 30px;
 }
