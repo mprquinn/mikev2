@@ -13,15 +13,15 @@ $(document).ready(function(){
 
 
 	$('.home .scroll').click(function(){
-		$(window).scrollTo('.work', 500);
+		$(window).scrollTo('.work', 1000);
 	});
 
-	var scrollDistance = 0;
+	// var scrollDistance = 0;
 
-	$(window).scroll(function(){
-		scrollDistance = $(window).scrollTop();
-		console.log(scrollDistance);
-	});
+	// $(window).scroll(function(){
+	// 	scrollDistance = $(window).scrollTop();
+	// 	console.log(scrollDistance);
+	// });
 
 	
 });

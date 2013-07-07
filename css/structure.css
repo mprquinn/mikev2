@@ -61,14 +61,17 @@ body{
 
 .view-site a{
 	display: block;
-	padding: 10px 0;
-	width: 100%;
+	/*padding: 10px 0;*/
+	width: 100px;
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
 	text-decoration: none;
+	font-family: 'Open Sans', arial, helvetica, sans-serif;
 	position: absolute;
 	top: 40%;
+	left: 50%;
+	margin-left: -50px;
 	background: #1d1d1d;
 	color: #eee;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -129,18 +132,27 @@ section{
 	background: #fff;
 	position: relative;
 	z-index: 10;
-	padding-top: 30px;
-	padding: 40px 0;
+	padding: 40px 0 60px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
 }
 
-.chris{
+.project{
 	position: relative;
 	z-index: 4;
 	width: 100%;
 	max-width: 100%;
 	height: 300px;
-	background: url('../images/bg-chris.jpg') center 340px fixed no-repeat;
+
 }
+
+.chris{
+	background: url('../images/bg-chris.jpg') center 0px no-repeat;
+}
+
+.model-milk{
+	background: url('../images/bg-model-milk.jpg') center 0px no-repeat;
+}
+
 
 .overlay{
 	width: 100%;
@@ -149,4 +161,20 @@ section{
 	bottom: 0;
 	background: #fff;
 	opacity: 0.3;
+}
+
+.blog{
+	background: #eee;
+	position: relative;
+	z-index: 10;
+	padding: 40px 0 60px;
+	height: 900px;
+}
+
+.blog p{
+	/*color: #eee;*/
+}
+
+.blog .subheader{
+	color: #1d1d1d;
 }

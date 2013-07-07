@@ -27,10 +27,19 @@
 		line-height: 60px;
 	}
 
+	h4{
+		max-width: 705px;
+		margin: 0 auto;
+		font-size: 21px;
+		line-height: 35px;
+	}
 
-	.contain p{
+
+	.contain p,
+	.contain ul{
 		max-width: 705px;
 		font-size: 18px;
 		line-height: 24px;
 	}
+
 }
