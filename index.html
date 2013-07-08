@@ -116,7 +116,9 @@
 	
 </footer>
 <script>
-	skrollr.init();
+	if ($(window).width() > 700) {
+		skrollr.init();
+	}	
 </script>
 <script>
 // Browser Awareness

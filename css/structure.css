@@ -128,7 +128,7 @@ section{
 	width: 960px;
 	max-width: 95%;
 	position: fixed;
-	top: 40%;
+	top: 20%;
 	left: 50%;
 	z-index: 1;
 	-webkit-transform: translate(-50%, -50%);
@@ -145,7 +145,7 @@ section{
 }
 
 .contain p{
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	padding: 0 15px;
 }
 
