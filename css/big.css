@@ -1,7 +1,53 @@
 @media screen and (min-width: 990px){
+
+	body{
+		line-height: 26px;
+	}
 	
+	h1{
+		width: 960px;
+		font-size: 150px;
+    	line-height: 200px;
+	}
+
+	h1.subheader{
+		width: 960px;
+		font-size: 60px;
+		line-height: 90px;
+	}
+
+	h2{
+		width: 960px;
+		font-size: 41px;
+    	line-height: 45px;
+	}
+
+	h3{
+		width: 960px;
+		font-size: 35px;
+		line-height: 50px;
+	}
+
+	h4{
+		width: 960px;
+		font-size: 30px;
+    	line-height: 45px;
+	}
+
+	p{
+		width: 960px;
+		font-size: 20px;
+    	line-height: 30px;
+
+	}
 
 	.contain p{
 		max-width: 100%;
+	}
+
+	ul{
+		width: 960px;
+		font-size: 20px;
+    	line-height: 30px;
 	}
 }

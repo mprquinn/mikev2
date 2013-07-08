@@ -1,23 +1,29 @@
-@media screen and (min-width: 600px) and (max-width: 989px){
+@media screen and (min-width: 650px) and (max-width: 989px){
 	
+	body{
+		line-height: 26px;
+	}
+
 	/*-------------------
 	Header
 	-------------------*/
 
 	.callout h1{
-		font-size: 115px;
-		line-height: 150px;
+		width: 725px;
+		font-size: 98px;
+		line-height: 135px;
 	}
 
 	.callout h2{
-		font-size: 31px;
+		width: 585px;
+		font-size: 25px;
 		line-height: 40px;
-		width: 705px;
 	}
 
 	.callout h3{
-		font-size: 26px;
-		line-height: 40px;
+		width: 705px;
+		font-size: 22px;
+		line-height: 35px;
 	}
 
 	h1.subheader{
