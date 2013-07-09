@@ -2,9 +2,13 @@ $(document).ready(function(){
 	var windowWidth = 0;
 	var windowHeight = $(window).innerHeight();
 
-	$('section.home').css({
-		'height' : windowHeight + 'px'
-	});
+
+	if ($(window).width() > 600){
+		$('section.home').css({
+			'height' : windowHeight + 'px'
+		});
+	}
+	
 	
 
 

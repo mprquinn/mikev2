@@ -7,8 +7,13 @@
 	/*-------------------
 	Header
 	-------------------*/
+
+	.home{
+		min-height: 1080px;
+	}
 	
 	.callout{
+		position: fixed;
 		top: 40%;
 	}
 
