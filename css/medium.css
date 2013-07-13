@@ -51,10 +51,16 @@
 
 
 	.contain p,
-	.contain ul{
+	.contain ul,
+	.contain ol{
 		max-width: 705px;
 		font-size: 18px;
 		line-height: 24px;
 	}
+
+	.contain ol{
+		margin: 24px auto;
+	}
+
 
 }
