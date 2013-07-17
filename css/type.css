@@ -27,7 +27,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     font-family: 'Open Sans' arial, helvetica, sans-serif;
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 0px 0px 0px rgba(224, 224, 224, 1.00);
@@ -54,7 +54,7 @@ h2 {
     margin: 0 auto;
     color: #eee;
     font-family: 'Open Sans', arial, helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     border-top-width: 1px;
     border-style: solid;
     border-right: none;
@@ -77,7 +77,7 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-family: 'Gentium Book Basic', georgia, serif;
-    font-size: 13px;
+    font-size: 10px;
     line-height: 15px;
     text-align: center;
     border: none;

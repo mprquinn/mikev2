@@ -11,6 +11,10 @@
 	.callout{
 		position: fixed;
 		top: 40%;
+		color: #1d1d1d;
+		-webkit-background-size: cover;
+		background-size: cover;
+		opacity: 1;
 	}
 
 	h1{

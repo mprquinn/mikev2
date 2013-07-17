@@ -33,9 +33,8 @@ $(document).ready(function(){
 			$('.blog .post').append('<p><a class="button" href="' + link +'" target="_blank">' + 'View on Tumblr' +'</a></p>');
 		}
 
-		console.log(date + ' ' + post + ' ' + link);
 	}
 
 	getBlog();
-	console.log('test');
+
 });
