@@ -27,6 +27,7 @@
 		width: 960px;
 		font-size: 60px;
 		line-height: 90px;
+		margin-bottom: 45px;
 	}
 
 	h2{
@@ -45,6 +46,11 @@
 		width: 960px;
 		font-size: 30px;
     	line-height: 45px;
+	}
+
+	hr{
+		width: 50%;
+		margin: 45px auto;
 	}
 
 	p{

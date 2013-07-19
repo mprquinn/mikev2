@@ -41,7 +41,7 @@
 
 	h1.subheader{
 		max-width: 705px;
-		margin: 0 auto;
+		margin: 0 auto 25px;
 		font-size: 40px;
 		line-height: 60px;
 	}
@@ -53,6 +53,11 @@
 		line-height: 45px;
 	}
 
+	hr{
+		width: 50%;
+		margin: 25px auto;
+	}
+
 
 	.contain p,
 	.contain ul,
@@ -60,6 +65,7 @@
 		max-width: 705px;
 		font-size: 18px;
 		line-height: 24px;
+		text-shadow: 1px 1px rgba(220,220,220,0.4);
 	}
 
 	.contain ol{
