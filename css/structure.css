@@ -119,7 +119,7 @@ section{
 
 .home{
 	height: 300px;
-	background: #fff url('../images/bg1small.jpg') 0px 0px no-repeat;
+	background: #fff url('../images/bg2.jpg') 0px 0px no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
