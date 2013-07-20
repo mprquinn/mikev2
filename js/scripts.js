@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 
 	$('.home .scroll').click(function(){
-		$(window).scrollTo('.work', 1000);
+		$(window).scrollTo('.work', 2000);
 	});
 
 	function getBlog(){
