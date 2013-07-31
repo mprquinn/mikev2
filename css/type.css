@@ -113,11 +113,24 @@ h4{
 
 -------------------*/
 
+.photo{
+    display: block;
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.photo p{
+    max-width: 100%;
+    color: #fff;
+}
+
 a{
     display: inline-block;
     padding: 2px 5px;
-    background: #1d1d1d;
-    color: #eee;
+    background: #eee;
+    color: #1d1d1d;
     text-decoration: none;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -127,8 +140,8 @@ a{
 }
 
 a:hover{
-    background: #eee;
-    color: #1d1d1d;
+    background: #1d1d1d;
+    color: #eee;
 }
 
 h2 a{
