@@ -58,11 +58,29 @@
 		margin: 25px auto;
 	}
 
+	
+	.bucket img{
+		display: inline-block;
+		max-width: 20%;
+		margin-right: 5%;
+	}
+
+	.bucket .wrap{
+		display: inline-block;
+		max-width: 70%;
+	}
+
+	.bucket p{
+		text-align: left;
+	}
+
+	.last{
+		clear: both;
+	}
 
 	.contain p,
 	.contain ul,
 	.contain ol{
-		max-width: 705px;
 		font-size: 18px;
 		line-height: 24px;
 		text-shadow: 1px 1px rgba(220,220,220,0.4);

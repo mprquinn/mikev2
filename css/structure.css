@@ -164,6 +164,22 @@ section{
 	padding: 0 15px;
 }
 
+.bucket{
+	box-sizing: border-box;
+	width: 100%%%;
+	padding: 0 10%;
+	margin: 0 auto;
+}
+
+.bucket img{
+	display: block;
+	margin: 0 auto;
+}
+
+.bucket p{
+	text-align: center;
+}
+
 .work{
 	background: #fff;
 	position: relative;
@@ -288,12 +304,15 @@ hr::after {
 .social{
 	list-style-type: none;
 	max-width: 100% !important;
-	margin: 25px auto;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .social li{
 	display: inline-block;
-	float: left;
+	float: none;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .social a{
@@ -304,22 +323,24 @@ hr::after {
 	text-indent: -9999px;
 	text-align: center;
 	border-radius: 50%;
-	margin: 0 15px;
+	margin: 10px auto;
 	padding: 0;
-	-webkit-transition: transform 0.5s ease-in-out;
-	-ms-transition: transform 0.5s ease-in-out;
-	-moz-transition: transform 0.5s ease-in-out;
-	-o-transition: transform 0.5s ease-in-out;
-	transition: transform 0.5s ease-in-out;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 }
 
 
 .social a:hover{
-	-webkit-transform: rotateZ(45deg);
+	opacity: 1;
+/*	-webkit-transform: rotateZ(45deg);
 	-moz-transform: rotateZ(45deg);
 	-o-transform: rotateZ(45deg);
 	-ms-transform: rotateZ(45deg);
-	transform: rotateZ(45deg);
+	transform: rotateZ(45deg);*/
 }
 
 .social a.github{
@@ -327,6 +348,7 @@ hr::after {
 }
 
 .social a.treehouse{
+	border: 2px solid #7FA24C;
 	background: #7FA24C url('../images/treehouse-128.png') center center no-repeat;
 }
 
