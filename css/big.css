@@ -60,6 +60,24 @@
 
 	}
 
+	.bucket{
+		display: inline-block;
+		max-width: 256px;
+		margin: 0 25px;
+		padding: 0;
+	}
+
+	.bucket img{
+		display: inline-block;
+		margin: 0 auto;
+	}
+
+	.bucket .wrap{
+		max-width: 256px;
+		display: inline-block;
+		text-align: left;
+	}
+
 	.contain p{
 		max-width: 100%;
 	}
